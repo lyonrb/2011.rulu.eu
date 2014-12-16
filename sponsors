@@ -1,0 +1,428 @@
+<!doctype html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <title>Ruby Lugdunum - 2011</title>
+    <link href="stylesheets/content.css" media="screen" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js" type="text/javascript"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.12/jquery-ui.min.js" type="text/javascript"></script>
+    <script src="javascripts/rails.js" type="text/javascript"></script>
+    <script src="javascripts/application.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <div class="banner_1">
+      <div class="center clearfix">
+        <header>
+          <a href="/"><img alt="ruby-lugdunum-logo" src="images/ruby-lugdunum-logo.png" class="logo"></a>
+          <div class="logo_text"></div>
+          <h1>
+            <span class="red">Ruby Lugdunum</span>
+          </h1>
+          <p id="organized-by"><small>Organized by <a href="http://lyonrb.fr">Lyon.rb</a></small></p>
+          <h2>
+            25-26 June 2011
+          </h2>
+          <h3>
+            Lyon, France
+          </h3>
+          <nav>
+            <ul>
+	      
+		       <li>
+	<a href="/"  >
+	  HOME
+	</a>
+      </li>
+
+	      
+		       <li>
+	<a href="/speakers"  >
+	  SPEAKERS
+	</a>
+      </li>
+
+	      
+		       <li>
+	<a href="/schedule"  >
+	  SCHEDULE
+	</a>
+      </li>
+
+	      
+		       <li>
+	<a href="/venue"  >
+	  VENUE
+	</a>
+      </li>
+
+	      
+		       <li>
+	<a href="/sponsors" class='current' >
+	  SPONSORS
+	</a>
+      </li>
+
+	      
+            </ul>
+          </nav>
+          <!--<div class="banner">
+            <img alt="Banner" src="images/banner.png">
+          </div>-->
+        </header>
+      </div>
+    </div>
+    <div class="banner_2">
+      <div class="center clearfix">
+        <div class="column_1 sponsors-page">
+
+  <!-- ========== GOLD ========== -->
+
+  <p class="thanks">Special thanks to our gold sponsors : <a href="#sogilis">Sogilis</a>,
+    <a href="#officialfm">Official.fm</a>, and <a href="#af83">AF83</a>.</p>
+
+  <!-- 690 / 3 = 230px wide -->
+
+  <ul class="horizon gold">
+    <li>
+      <img src="images/sponsors/logo_sogilis.png" alt="Sogilis logo"/>
+
+      <p>Sogilis</p>
+    </li>
+    <li>
+      <img src="images/sponsors/logo_officialfm.png" alt="Official.fm logo"/>
+
+      <p>Official.fm</p>
+    </li>
+    <li>
+      <img src="images/sponsors/logo_af83.jpg" alt="af83 logo"/>
+
+      <p>af83</p>
+    </li>
+  </ul>
+
+
+  <!-- ******* Sogilis ******* -->
+  <h3 id="sogilis"><a href="http://sogilis.com/">sogilis.com</a></h3>
+
+  <div class="summary">
+    <p>SOGILIS is a software company that stands out for its experience in improving software
+      quality.</p>
+
+    <p>SOGILIS is composed exclusively of highly qualified staff, all aware of the problems of code
+      quality.</p>
+
+    <p>Our philosophy is to never compromise on quality by never taking shortcuts. Indeed,
+      experience shows they always end up to be a particularly costly technical debt over time.</p>
+
+  </div>
+  <!-- ******* Official.fm ******* -->
+
+  <h3 id="officialfm"><a href="http://official.fm/">Official.fm</a></h3>
+
+  <div class="summary">
+    <p>Official.fm provide state-of-the-art services for audio professionals to help them optimize
+      the day2day management of their audio files.</p>
+
+    <p>Hosting, Distribution, Promotion, Statistics, Selling, Licensing, Tour Organization and
+      connecting with fans are some examples of our existing and/or upcoming services.</p>
+
+    <p>Launched in August 2010 from Geneva, Switzerland, our company has raised in excess of $8M
+      USD.</p>
+
+    <p>Official.fm team, composed of 18 talented/passionate/experienced people, is the perfect
+      equation between 3 worlds: Tech, Music and Finance.</p>
+
+    <p>Our goal: To become the "basecamp" for audio professionals.</p>
+
+  </div>
+
+  <!-- ******* AF83 ******* -->
+
+  <h3 id="af83"><a href="http://af83.com/">af83</a></h3>
+
+  <div class="summary">
+    <p>AF83 is a vibrant tech shop based in Paris and SF specializing in realtime web and mobile
+      apps.</p>
+
+    <p>We mainly develop in Ruby, Erlang and Server Side Javascript, specializing in the rapid
+      development of scalable architectures with the latest technologies in NoSQL, cloud oriented
+      deployment and light-weight RESTful SOAs.</p>
+  </div>
+
+  <!-- ========== SILVER ========== -->
+
+  <p class="thanks">Thanks to our silver sponsors : Heroku, Shopify, Novelys, Dimelo, Webpulser,
+    Nuxos group, Microsoft and Rubyfrance.</p>
+
+  <h3 id="heroku">Heroku</h3>
+  <img class="" src="images/sponsors/logo_heroku.png"/>
+
+  <div class="summary">
+    <p>Heroku provides a platform as a service (PAAS) for building, deploying, running, and managing
+      cloud apps using Ruby. The
+      <a href="http://www.heroku.com/how" title="Heroku - How it works">architecture</a> of their
+      cloud application platform includes tools for deployment and management, a runtime for
+      scalability, fault tolerance, automation, and an Add-ons system for extending the capabilities
+      of the platform.</p></div>
+  <h3 id="shopify">Shopify</h3>
+  <img class="" src="images/sponsors/logo_shopify.png"/>
+
+  <div class="summary">
+    <p>Shopify helps you build an elegant, secure, customized online store in minutes.</p></div>
+  <h3 id="novelys">Novelys</h3>
+  <img class="" src="images/sponsors/logo_novelys.png"/>
+
+  <div class="summary">
+    <p>Novelys is a small and agile company created in 2005 located in Strasbourg, France. We are a
+      web technology provider for companies and public sector organizations as well as startups. We
+      provide consulting and services around Ruby, Rails, AWS, MongoDB and mobile web.</p></div>
+  <h3 id="dimelo">Dimelo</h3>
+  <img class="" src="images/sponsors/logo_dimelo.png"/>
+
+  <div class="summary">
+    <p>Dimelo is the European leader in SocialCRM platforms, enabling large businesses to engage
+      with their customers on all digital channels. We have two line of products based on
+      RubyOnRails : a community platform engine, and a web contact center.</p></div>
+  <h3 id="webpulser">Webpulser</h3>
+  <img class="" src="images/sponsors/logo_webpulser.png"/>
+
+  <div class="summary">
+    <p>Webpulser created open source platform Forgeos based on Ruby on Rails framework. With CMS,
+      e-commerce and social plugins, we're able to create flexible and evolutive web solutions.
+      Forgeos has a powerful and intuitive back office UI to simplify content management and to
+      drive ecommerce shops with fun. With Forgeos you manage your pages, medias, products, orders
+      quickly and easily.</p></div>
+  <h3 id="tigerlily">Tigerlily</h3>
+  <img class="" src="images/sponsors/logo_tigerlily.png"/>
+
+  <div class="summary"><p>Headquartered in Paris, Tigerlily provides the best platform to
+    acquire, engage and monetize your customers on social media.
+    Tigerlily Platform provides brands and agencies the following advantages:
+    <ul>
+      <li>Tools to manage over conversations and branding across social media</li>
+      <li>Increased web exposure, through social features such as like, comments, share and
+        invitations
+      </li>
+      <li>Increased revenue with monetisation tools.</li>
+      <li>Measurable ROI for your social marketing efforts</li>
+    </ul>
+  </div>
+  <h3 id="nuxos">Nuxos group</h3>
+  <img class="" src="images/sponsors/logo_nuxos.png"/>
+
+  <div class="summary">
+    <p>Founded in 2004, Nuxos Group provides consulting, analysis, development and maintenance for
+      your business applications.
+
+      We support you in the design and development of your information system whether intranet,
+      extranet, or mobile.</p></div>
+
+  <h3 id="microsoft">Microsoft</h3>
+  <img class="" src="images/sponsors/logo_microsoft.png"/>
+
+  <div class="summary">
+    <p>Founded in 1975, Microsoft is a well known software leader. The company develop and sale a
+      wide range of software solutions, accessories and services for the professional and public
+      market.</p></div>
+
+  <h3 id="rubyfrance">Rubyfrance</h3>
+  <img class="" src="images/sponsors/logo_rubyfrance.jpg"/>
+
+  <div class="summary">
+    <p>Ruby France is a french association dedicated to the Ruby programming language, its major
+      applications (like Ruby on Rails) and its ecosystem.</p>
+
+    <p>It's why they wanted to be part of that event and support Ruby Lugdunum.</p>
+  </div>
+
+
+  <!-- ========== PARTNERS ========== -->
+
+
+  <p class="thanks">This conference would have been impossible to do without the help of our
+    partners : INSA Lyon, Leadformance, HESPUL, and the Club Agile Rhône-Alpes.</p>
+
+  <!--  173 * 4 = 692px MAX -->
+
+  <ul class="horizon partners">
+    <li>
+      <img src="images/sponsors/INSA.png"/>
+
+    </li>
+    <li>
+      <img src="images/sponsors/logo_leadformance.gif"/>
+    </li>
+    <li>
+      <img src="images/sponsors/logo_cara.png"/>
+
+    </li>
+  </ul>
+
+   <img id="hespul" src="images/sponsors/logo_hespul.jpg"/>
+
+  <br/>
+  <div  class="summary">
+    <p>Created in 1991, Hespul is a French independent non-profit making association based in
+        Lyon specialized in the development of renewable energy and energy efficiency.
+        Hespul will be recruiting interns and hackers in 2012 to work cutting edge ruby
+        projects.</p>
+
+      <p>Please contact <a href="http://twitter.com/21croissants">Jean-Michel</a> for more
+        information.
+      </p>
+  </div>
+
+
+</div>
+
+
+        <div class="column_2">
+          <a href="/" class="big green awesome full_width_button">Sold Out</a>
+
+          <div id="twitter">
+            <p>Follow us on twitter <a href="http://twitter.com/rubylug">@rubylug</a>&nbsp;<a href="http://twitter.com/#!/search/%23rulu">#rulu</a></p>
+          </div>
+
+          <div class="gold-sponsors">
+            <h2>GOLD Sponsors</h2>
+	    <!-- <a href="/sponsoring" class="become_sponsor">Become a sponsor ?</a> -->
+
+            <ul>
+              <li>
+                <a href="http://www.sogilis.com/">
+                  <img alt="Sogilis" src="images/sponsors/logo_sogilis.png" class="bigger-logo" /><br />
+                </a>
+              </li>
+              <li>
+                <a href="http://official.fm/">
+                <img alt="official.fm" src="images/sponsors/logo_officialfm.png" class="bigger-logo" /><br />
+                </a>
+              </li>
+              <li>
+                <a href="http://af83.com">
+                <img alt="af83" src="images/sponsors/logo_af83.jpg" class="bigger-logo" /><br />
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="sponsors">
+            <h2>SILVER Sponsors</h2>
+            <ul>
+              <li>
+                <a href="http://www.heroku.com/">
+                <img alt="Heroku" src="images/sponsors/logo_heroku.png" /><br />
+                </a>
+              </li>
+              <li>
+                <a href="http://www.shopify.com/">
+                <img alt="Shopify" src="images/sponsors/logo_shopify.png" /><br />
+                </a>
+              </li>
+
+              <li>
+                <a href="http://www.novelys.com/">
+                <img alt="Novelys" src="images/sponsors/logo_novelys.png" /><br />
+                </a>
+              </li>
+              <li>
+                <a href="http://www.dimelo.com/">
+                <img alt="Dimelo" src="images/sponsors/logo_dimelo.png" /><br />
+                </a>
+              </li>
+              <li>
+                <a href="http://www.webpulser.com/">
+                <img alt="Webpulser" src="images/sponsors/logo_webpulser.png" /><br />
+                </a>
+              </li>
+             <li>
+                <a href="http://www.tigerlilyapps.com/">
+                <img alt="Tigerlily Apps" src="images/sponsors/logo_tigerlily.png" /><br />
+                </a>
+              </li>
+              <li>
+                <a href="http://www.nuxos.fr/">
+                <img alt="Nuxos" src="images/sponsors/logo_nuxos.png" /><br />
+                </a>
+              </li>
+              <li>
+                <a href="http://www.microsoft.com">
+                  <img alt="Microsoft" src="images/sponsors/logo_microsoft.png" /><br />
+                </a>
+              </li>
+              <li>
+                <a href="http://rubyfrance.org/">
+                  <img alt="Rubyfrance" src="images/sponsors/logo_rubyfrance.jpg" /><br />
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="sponsors">
+            <h2>Partners</h2>
+            <ul>
+              <li>
+                <a href="http://www.citi.insa-lyon.fr/">
+                  <img alt="INSA" src="images/sponsors/INSA.png" /><br />
+                </a>
+              </li>
+              <li>
+                <a href="http://www.leadformance.com/">
+                  <img alt="Leadformance" src="images/sponsors/logo_leadformance.gif" /><br />
+                </a>
+              </li>
+              <li>
+                <a alt="HESPUL" href="http://hespul.org/">
+                  <img alt="" src="images/sponsors/logo_hespul.jpg" /><br />
+                </a>
+              </li>
+              <li>
+                <a href="http://www.clubagilerhonealpes.org/">
+                  <img alt="CARA" src="images/sponsors/logo_cara.png" /><br />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="center clearfix">
+        <ul>
+          <li><a href="/">HOME</a></li>
+          <li><a href="/speakers">SPEAKERS</a></li>
+          <li><a href="/schedule">SCHEDULE</a></li>
+          <li><a href="/venue">VENUE</a></li>
+          <!-- <li><a href="/sponsors">SPONSORS</a></li> -->
+          <li><a href="mailto:rulu@lyonrb.fr">CONTACT</a></li>
+        </ul>
+        &copy; 2011 <a href="http://lyonrb.fr">Lyon Ruby Brigade</a> - <a href="/legal">legal notice</a>
+        <hr>
+        <div class="organizers clearfix">
+          <ul>
+            <li><a href="http://twitter.com/21croissants"><img class="profil" alt="21croissants" src="images/organizers/21croissants.png"></a><br><a href="http://twitter.com/21croissants">@21croissants</a></li>
+            <li><a href="http://twitter.com/bibinou"><img class="profil" alt="bibinou" src="images/organizers/bibinou.png"></a><br><a href="http://twitter.com/bibinou">@bibinou</a></li>
+            <li><a href="http://twitter.com/dmathieu"><img class="profil" alt="dmathieu" src="images/organizers/dmathieu.png"></a><br><a href="http://twitter.com/dmathieu">@dmathieu</a></li>
+            <li><a href="http://twitter.com/cesariogw"><img class="profil" alt="cesario" src="images/organizers/cesario.png"></a><br><a href="http://twitter.com/cesariogw">@cesariogw</a></li>
+            <li><a href="https://github.com/ranska"><img class="profil" alt="ranska" src="images/organizers/ranska.png"></a><br><a href="http://github.com/ranska">@ranska</a></li>
+            <li><a href="http://twitter.com/lminaudier"><img class="profil" alt="lminaudier" src="images/organizers/lminaudier.jpg"></a><br><a href="http://twitter.com/lminaudier">@lminaudier</a></li>
+            <li><a href="http://twitter.com/vzmind"><img class="profil" alt="vzmind" src="images/organizers/vzmind.png"></a><br><a href="http://twitter.com/vzmind">@vzmind</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-20067061-2']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+</html>

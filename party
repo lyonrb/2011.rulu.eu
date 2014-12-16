@@ -1,0 +1,263 @@
+<!doctype html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <title>Ruby Lugdunum - 2011</title>
+    <link href="stylesheets/content.css" media="screen" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js" type="text/javascript"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.12/jquery-ui.min.js" type="text/javascript"></script>
+    <script src="javascripts/rails.js" type="text/javascript"></script>
+    <script src="javascripts/application.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <div class="banner_1">
+      <div class="center clearfix">
+        <header>
+          <a href="/"><img alt="ruby-lugdunum-logo" src="images/ruby-lugdunum-logo.png" class="logo"></a>
+          <div class="logo_text"></div>
+          <h1>
+            <span class="red">Ruby Lugdunum</span>
+          </h1>
+          <p id="organized-by"><small>Organized by <a href="http://lyonrb.fr">Lyon.rb</a></small></p>
+          <h2>
+            25-26 June 2011
+          </h2>
+          <h3>
+            Lyon, France
+          </h3>
+          <nav>
+            <ul>
+	      
+		       <li>
+	<a href="/"  >
+	  HOME
+	</a>
+      </li>
+
+	      
+		       <li>
+	<a href="/speakers"  >
+	  SPEAKERS
+	</a>
+      </li>
+
+	      
+		       <li>
+	<a href="/schedule"  >
+	  SCHEDULE
+	</a>
+      </li>
+
+	      
+		       <li>
+	<a href="/venue"  >
+	  VENUE
+	</a>
+      </li>
+
+	      
+		       <li>
+	<a href="/sponsors"  >
+	  SPONSORS
+	</a>
+      </li>
+
+	      
+            </ul>
+          </nav>
+          <!--<div class="banner">
+            <img alt="Banner" src="images/banner.png">
+          </div>-->
+        </header>
+      </div>
+    </div>
+    <div class="banner_2">
+      <div class="center clearfix">
+        <div class="column_1 party">
+  
+  <h1>Saturday Evening Party</h1><br />
+  
+  <p style="text-align: center;">
+    <img alt="perl" src="/images/party/perl.png" />
+  </p>
+  
+  <div class="block">
+    <p>
+      There will, of course, be an after conference party after the saturday evening, from 7pm.<br />
+      This party is a great occasion to meet informally with other hackers and enjoy some french wine !
+    </p>
+    
+    <p>
+      All attendees are invited to come. And we're not closed to having other people coming too.<br />
+      If you could just tell us you're coming on <a href="http://www.doodle.com/erhpznwygc34gc58">this doodle</a> so we can arrange depending of how many you are !
+    </p>
+    
+    <p>
+      The party will happen at the <a href="http://www.cafeperl.com/contact.html">Café Perl</a> (yeah, like the language !)<br />
+      It's located in the center of the city, near the <strong>Cordeliers</strong> subway station.
+    </p>
+  </div>
+    
+  <div class="block">
+    <h2>Map</h2>
+    
+    <div style="text-align: center;">
+      <iframe width="700" height="500" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.fr/maps?ie=UTF8&amp;q=caf%C3%A9+perl+lyon&amp;fb=1&amp;gl=fr&amp;hq=caf%C3%A9+perl&amp;hnear=0x47f4ea516ae88797:0x408ab2ae4bb21f0,Lyon&amp;cid=0,0,11535103547012078031&amp;t=h&amp;iwloc=A&amp;ll=45.766146,4.836066&amp;spn=0.006295,0.006295&amp;output=embed"></iframe><br />
+      
+      <p>
+        <a href="http://maps.google.fr/maps?ie=UTF8&amp;q=caf%C3%A9+perl+lyon&amp;fb=1&amp;gl=fr&amp;hq=caf%C3%A9+perl&amp;hnear=0x47f4ea516ae88797:0x408ab2ae4bb21f0,Lyon&amp;cid=0,0,11535103547012078031&amp;t=h&amp;iwloc=A&amp;ll=45.762916,4.834453&amp;spn=0.006295,0.006295&amp;source=embed">View the Café Perl on a larger map</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+        <div class="column_2">
+          <a href="/" class="big green awesome full_width_button">Sold Out</a>
+
+          <div id="twitter">
+            <p>Follow us on twitter <a href="http://twitter.com/rubylug">@rubylug</a>&nbsp;<a href="http://twitter.com/#!/search/%23rulu">#rulu</a></p>
+          </div>
+
+          <div class="gold-sponsors">
+            <h2>GOLD Sponsors</h2>
+	    <!-- <a href="/sponsoring" class="become_sponsor">Become a sponsor ?</a> -->
+
+            <ul>
+              <li>
+                <a href="http://www.sogilis.com/">
+                  <img alt="Sogilis" src="images/sponsors/logo_sogilis.png" class="bigger-logo" /><br />
+                </a>
+              </li>
+              <li>
+                <a href="http://official.fm/">
+                <img alt="official.fm" src="images/sponsors/logo_officialfm.png" class="bigger-logo" /><br />
+                </a>
+              </li>
+              <li>
+                <a href="http://af83.com">
+                <img alt="af83" src="images/sponsors/logo_af83.jpg" class="bigger-logo" /><br />
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="sponsors">
+            <h2>SILVER Sponsors</h2>
+            <ul>
+              <li>
+                <a href="http://www.heroku.com/">
+                <img alt="Heroku" src="images/sponsors/logo_heroku.png" /><br />
+                </a>
+              </li>
+              <li>
+                <a href="http://www.shopify.com/">
+                <img alt="Shopify" src="images/sponsors/logo_shopify.png" /><br />
+                </a>
+              </li>
+
+              <li>
+                <a href="http://www.novelys.com/">
+                <img alt="Novelys" src="images/sponsors/logo_novelys.png" /><br />
+                </a>
+              </li>
+              <li>
+                <a href="http://www.dimelo.com/">
+                <img alt="Dimelo" src="images/sponsors/logo_dimelo.png" /><br />
+                </a>
+              </li>
+              <li>
+                <a href="http://www.webpulser.com/">
+                <img alt="Webpulser" src="images/sponsors/logo_webpulser.png" /><br />
+                </a>
+              </li>
+             <li>
+                <a href="http://www.tigerlilyapps.com/">
+                <img alt="Tigerlily Apps" src="images/sponsors/logo_tigerlily.png" /><br />
+                </a>
+              </li>
+              <li>
+                <a href="http://www.nuxos.fr/">
+                <img alt="Nuxos" src="images/sponsors/logo_nuxos.png" /><br />
+                </a>
+              </li>
+              <li>
+                <a href="http://www.microsoft.com">
+                  <img alt="Microsoft" src="images/sponsors/logo_microsoft.png" /><br />
+                </a>
+              </li>
+              <li>
+                <a href="http://rubyfrance.org/">
+                  <img alt="Rubyfrance" src="images/sponsors/logo_rubyfrance.jpg" /><br />
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="sponsors">
+            <h2>Partners</h2>
+            <ul>
+              <li>
+                <a href="http://www.citi.insa-lyon.fr/">
+                  <img alt="INSA" src="images/sponsors/INSA.png" /><br />
+                </a>
+              </li>
+              <li>
+                <a href="http://www.leadformance.com/">
+                  <img alt="Leadformance" src="images/sponsors/logo_leadformance.gif" /><br />
+                </a>
+              </li>
+              <li>
+                <a alt="HESPUL" href="http://hespul.org/">
+                  <img alt="" src="images/sponsors/logo_hespul.jpg" /><br />
+                </a>
+              </li>
+              <li>
+                <a href="http://www.clubagilerhonealpes.org/">
+                  <img alt="CARA" src="images/sponsors/logo_cara.png" /><br />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="center clearfix">
+        <ul>
+          <li><a href="/">HOME</a></li>
+          <li><a href="/speakers">SPEAKERS</a></li>
+          <li><a href="/schedule">SCHEDULE</a></li>
+          <li><a href="/venue">VENUE</a></li>
+          <!-- <li><a href="/sponsors">SPONSORS</a></li> -->
+          <li><a href="mailto:rulu@lyonrb.fr">CONTACT</a></li>
+        </ul>
+        &copy; 2011 <a href="http://lyonrb.fr">Lyon Ruby Brigade</a> - <a href="/legal">legal notice</a>
+        <hr>
+        <div class="organizers clearfix">
+          <ul>
+            <li><a href="http://twitter.com/21croissants"><img class="profil" alt="21croissants" src="images/organizers/21croissants.png"></a><br><a href="http://twitter.com/21croissants">@21croissants</a></li>
+            <li><a href="http://twitter.com/bibinou"><img class="profil" alt="bibinou" src="images/organizers/bibinou.png"></a><br><a href="http://twitter.com/bibinou">@bibinou</a></li>
+            <li><a href="http://twitter.com/dmathieu"><img class="profil" alt="dmathieu" src="images/organizers/dmathieu.png"></a><br><a href="http://twitter.com/dmathieu">@dmathieu</a></li>
+            <li><a href="http://twitter.com/cesariogw"><img class="profil" alt="cesario" src="images/organizers/cesario.png"></a><br><a href="http://twitter.com/cesariogw">@cesariogw</a></li>
+            <li><a href="https://github.com/ranska"><img class="profil" alt="ranska" src="images/organizers/ranska.png"></a><br><a href="http://github.com/ranska">@ranska</a></li>
+            <li><a href="http://twitter.com/lminaudier"><img class="profil" alt="lminaudier" src="images/organizers/lminaudier.jpg"></a><br><a href="http://twitter.com/lminaudier">@lminaudier</a></li>
+            <li><a href="http://twitter.com/vzmind"><img class="profil" alt="vzmind" src="images/organizers/vzmind.png"></a><br><a href="http://twitter.com/vzmind">@vzmind</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-20067061-2']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+</html>
